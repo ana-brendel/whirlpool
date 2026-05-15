@@ -1,0 +1,4 @@
+[submodule "batfish"]
+	path = batfish
+	url = https://github.com/ana-brendel/batfish.git
+	branch = add_liveness
