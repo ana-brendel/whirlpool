@@ -33,7 +33,13 @@ BLOCK TO EXTERNAL
 ### Scalability Tests
 There are two scalability tests that we used to evaluate `whirlpool`; one for isolation properties and one for reachability properties. Both sets of tests were ran on modified versions of the _Internet2_ network. We layered the network to increase the number of edges and nodes in the network. Each layer in the modified network is the same as the original _Internet2_ network and each node in a given layer is connected to that same node on the layers above and below the one it is on.
 
-To run the scalability tests for the **isolation** property, you should run the following command in the _scripts_ directory:
+Before running the scalability tests, you'll need to generate all of the configs for each layer. You can do so by running the following commands:
+```
+whirlpool/batfish/benchmarks % cd scaling
+whirlpool/batfish/benchmarks/scaling % python3 replicate.py
+```
+
+To run the scalability tests for the **isolation** property, you should run the following command in the _benchmarks/scripts_ directory:
 `% python3 run.py isolationScale n` where _n_ is the number of times each test is ran to be averaged
 
 The results print out to the terminal and look like the following.  This output came from running a version of the script which doesn't include all layers, for example in this case it just ran tests with 50 and 75 layers (each test ran once). The command was: `% python3 run.py isolationScale 1 50 75`. The possible layers for the scalability tests for isolation are: 50,75,100,125,150,175.
