@@ -7,3 +7,5 @@ pyvenv.cfg
 share
 etc
 benchmarks/scaling/*_layers
+.DS_Store
+**/.DS_Store
