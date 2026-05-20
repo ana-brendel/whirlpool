@@ -29,4 +29,4 @@ This command will not terminate, but it will start the Batfish process so that t
 The jupyter notebooks (`SafetyExamples.ipynb` and `LivenessExamples.ipynb`) within the _notebooks_ directory contain descriptions of the API and examples of how `whirlpool` can be used. These notebooks include how to make safety property verification queries and liveness property verification queries respectively.
 
 ### Running Benchmarks
-To run the (publicly available) benchmarks which we used to evaluate `whirlpool`, please refer to the README in the _benchmarks_ repo.
+To run the (publicly available) benchmarks which we used to evaluate `whirlpool`, please refer to the README in the [_benchmarks_](/benchmarks/README.md) repo.
