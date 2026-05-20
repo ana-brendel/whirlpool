@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+
+CACHEDIR.TAG
+lib
+bin
+pyvenv.cfg
+share
+etc
+benchmarks/scaling/*_layers
