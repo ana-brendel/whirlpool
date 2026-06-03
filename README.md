@@ -1,6 +1,8 @@
 # whirlpool
 `whirlpool` is a _property-directed_ control plane verifier. It is implemented as a [Batfish](https://batfish.org/) question, and as such is accessible via the [_pybatfish_](https://github.com/batfish/pybatfish) Python client.
 
+**[WARNING] When you clone this repo, be sure to clone with the `--recurse-submodules` tag. Otherwise the submodule containing Batfish with the whirlpool questions will not properly clone. If you forget, you can run `git submodule update --init --recursive` in this repo to effective clone all of the submodules.**
+
 This repo includes a fork of Batfish which includes the implementation of `whirlpool` and instructions for running `whirlpool`. Additionally, the _notebooks_ directory contains Jupyter notebooks which show examples of using `whirlpool`. The _benchmarks_ directory contains instructions and source code for running the benchmarks which we used to evaluate `whirlpool` in the paper which is currently under submission.
 
 ### Getting Started

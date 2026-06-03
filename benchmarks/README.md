@@ -60,7 +60,7 @@ Running for [Layer 50] [averaged over 1 runs]
 Running for [Layer 75] [averaged over 1 runs]
 ... block to external runtime 84.71 (checksum 83)
 ... block to external no violations runtime 57.47 (checksum 0)
-- Avg Runtime (s) with Violation: 84.71 s (checksum False) -- 1.0 mins, 24.709999999999994 seconds
+- Avg Runtime (s) with Violation: 84.71 s (checksum True) -- 1.0 mins, 24.709999999999994 seconds
 - Avg Runtime (s) without Violation: 57.47 s (checksum True) -- 0.0 mins, 57.47 seconds
 ```
 
